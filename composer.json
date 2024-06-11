@@ -1,0 +1,25 @@
+{
+    "name": "thanh/asmphp2",
+    "autoload": {
+        "psr-4": {
+            "Thanh\\Asmphp2\\": "src/"
+        },
+        "files" : [
+            "helper.php"
+        ]
+    },
+   
+    "authors": [
+        {
+            "name": "thanhdo04",
+            "email": "118782543+bietjdau@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
